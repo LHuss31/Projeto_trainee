@@ -13,7 +13,11 @@ const LoginPage = ({ navigation }) => {
     const Data = {emailOrCpf, password};
     try {
       const response = await api.post('/signin', Data);
+<<<<<<< HEAD
   
+=======
+
+>>>>>>> 42d5fe1bb6d476f7c66b1b365e99502618c53452
       if (response.status === 200) {
         // Sucesso no envio dos dados
         console.log('Dados enviados com sucesso:', response.data);
@@ -30,6 +34,8 @@ const LoginPage = ({ navigation }) => {
   };
   
   
+
+
 
   return (
     <View style={styles.container}>
